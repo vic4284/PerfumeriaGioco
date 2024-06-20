@@ -21,3 +21,4 @@ jobs:
     - name: Deploy to server
       run: |
         rsync -avz --exclude '.git' --exclude '.github' ./ vicentco_alan@162.241.60.209:/home4/vicentco/public_html/perf/PerfumeriaWeb-main
+
